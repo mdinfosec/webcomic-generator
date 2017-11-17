@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link type="text/css" href="style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="comics.js"></script>
+    <script src="about.js"></script>
+    <script src="reload.js"></script>
+</head>
+
+<body onload="panel_1(); panel_2(); panel_3();">
+    <div class="wrapper">
+        <div id="Panel_1">
+            <img id="Strip_1" width="310" height="350" />
+        </div>
+        <div id="Panel_2">
+            <img id="Strip_2" width="310" height="350" />
+        </div>
+        <div id="Panel_3">
+            <img id="Strip_3" width="310" height="350" />
+        </div>
+        <div>
+            <button id="button_1" onclick="panel_1()">NUDGE</button>
+        </div>
+        <div>
+            <button id="button_2" onclick="panel_2()">NUDGE</button>
+        </div>
+        <div>
+            <button id="button_3" onclick="panel_3()">NUDGE</button>
+        </div>
+    </div>
+</body>
+<footer>
+    <a>&copy; Matthew Dingsdale 2017</a>
+</footer>
+
+</html>
